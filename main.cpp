@@ -40,33 +40,6 @@ int main()
     cin >> e;
     cout << "angka anda + c: " << e + c;
 
-    /* INI NYOBA DOANG */
-    int pil, batas;
-    cout<<"masukkan pilihan"<<endl;
-    cout<<"1. bilangan ganjil"<<endl;
-    cout<<"2. bilangan genap"<<endl;
-    cin>>pil;
-    cout<<"masukkan batas : ";
-    cin>>batas;
-    cout<<endl;
 
-    if {pil==1} {
-        cout<<"deret bilangan ganjil"<<endl
-
-        for{int i=1,i<=batas,i++} {
-            if{i%2!=0} {
-                cout<<i<<" ";
-            }
-        }
-    }else if{pil==2 {
-    cout<<"deret bilangan genap"<<endl;
-    for {int i=1;i<=batas,i++}{
-        if{i%2==0} {
-           cout<<i<<"";
-        }
-    }else {
-    cout<<"salah memasukkan pilihan"<<endl;F
-    }
-    }
     return 0;
 }
